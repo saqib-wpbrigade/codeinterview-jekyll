@@ -982,6 +982,7 @@ Footer Code
 .footer_wraper .col{
     width: 25%;
     padding: 0 15px;
+    flex: 1;
 }
 .footer_wraper .container{
     padding-top: 39px;
@@ -4463,12 +4464,13 @@ border-radius: 4px;
         margin-bottom: 32px;
         padding-left: 15px;
         padding-right: 15px;
+        flex: none;
     }
 
-    .footer_wraper .col:last-child {
+    /* .footer_wraper .col:last-child {
         width: 100%;
         display: flex;
-    }
+    } */
 
     .footer_wraper .container {
         padding-top: 34px;
