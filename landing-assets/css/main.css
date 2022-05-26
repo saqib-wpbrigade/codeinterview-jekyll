@@ -2590,6 +2590,10 @@ z-index: 1;
     padding-bottom: 44px;
 }
 
+.pricepage .cta-main{
+    border-top: 0px;
+}
+
 .cta-main {
     padding: 60px 0px 44px;
     background-color: #f6f9fc;
