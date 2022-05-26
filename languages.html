@@ -124,13 +124,13 @@ description: Interview candidates in 30+ programming languages and databases wit
 import org.junit.*;
 import org.junit.runner.*;
 public class Code {
-@Test
-public void testNoop() {
- Assert.assertTrue(true);
-}
-public static void main(String[] args) {
-JUnitCore.main("Code");
-}
+  @Test
+  public void testNoop() {
+    Assert.assertTrue(true);
+  }
+  public static void main(String[] args) {
+    JUnitCore.main("Code");
+  }
 }</pre>
 
                 </div>
@@ -160,7 +160,7 @@ package main
 import "fmt"
                         
 func main() {
-fmt.Printf("Hello")
+   fmt.Printf("Hello")
 }</pre>
 
                 </div>
@@ -356,15 +356,15 @@ fmt.Printf("Hello")
 require 'rspec/autorun'
 
 class Greet
-def print!
-'HELLO'
-end
+  def print!
+    'HELLO'
+  end
 end
 
 RSpec.describe Greet do
-it 'prints hello' do
-expect(Greet.new.print!).to eq('HELLO')
-end
+   it 'prints hello' do
+      expect(Greet.new.print!).to eq('HELLO')
+   end
 end
                     </pre>
 
@@ -393,7 +393,7 @@ end
                             class="code-bg">main(args: Array[String])</code> , like this:</p>
                     <pre>
 object HelloWorld {
-def main(args: Array[String]) = println("Hello Scala!")
+   def main(args: Array[String]) = println("Hello Scala!")
 }
                                                 </pre>
 
@@ -455,7 +455,7 @@ def main(args: Array[String]) = println("Hello Scala!")
 -export([start/0]).
                         
 start() ->
-io:fwrite("Hello"). 
+  io:fwrite("Hello"). 
                     </pre>
 
                 </div>
@@ -476,9 +476,9 @@ io:fwrite("Hello").
                     <pre>
 Code.compiler_options(ignore_module_conflict: true
 defmodule Solution do
-def start() do
- IO.puts "Hello"
-end
+  def start() do
+    IO.puts "Hello"
+  end
 end</pre>
                     <p>
                         Also notice the first line <code
