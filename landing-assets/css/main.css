@@ -495,7 +495,7 @@ ul.list li:not(:last-child) {
     position: relative;
 }
 
-.menu_wrapper .sub-menu-parent:hover > a{
+.menu_wrapper .sub-menu-parent:hover a{
     cursor: pointer;
 }
 
