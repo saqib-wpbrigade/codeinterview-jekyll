@@ -5394,8 +5394,8 @@ border-radius: 4px;
         position: relative;
     }
 
-    .menu_wrapper .menu-end li:last-child {
-        margin-top: 16px;
+    .menu_wrapper .menu-end li {
+        margin-top: 16px !important;
     }
 
     .sub-menu-parent {
